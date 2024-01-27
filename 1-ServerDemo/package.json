@@ -1,14 +1,15 @@
 {
-  "name": "cls",
+  "name": "server-demo",
   "version": "1.0.0",
-  "type":"module",
+  "description": "This is just demo ",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Vaibhav Rathod",
   "license": "ISC",
-  "description": "",
   "dependencies": {
+    "dotenv": "^16.4.1",
     "express": "^4.18.2"
   }
 }
